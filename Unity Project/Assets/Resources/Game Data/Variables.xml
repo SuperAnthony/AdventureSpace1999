@@ -1,0 +1,138 @@
+<data>
+  <row row="1">
+    <cell cellsource="A1">Variable</cell>
+    <cell cellsource="B1">Value</cell>
+  </row>
+  <row row="2">
+    <cell cellsource="A2">beamsOn</cell>
+    <cell cellsource="B2">false</cell>
+  </row>
+  <row row="3">
+    <cell cellsource="A3">cardboardBoxFloor</cell>
+    <cell cellsource="B3">false</cell>
+  </row>
+  <row row="4">
+    <cell cellsource="A4">closetOpen</cell>
+    <cell cellsource="B4">false</cell>
+  </row>
+  <row row="5">
+    <cell cellsource="A5">compartmentOpen</cell>
+    <cell cellsource="B5">false</cell>
+  </row>
+  <row row="6">
+    <cell cellsource="A6">contactedJude</cell>
+    <cell cellsource="B6">false</cell>
+  </row>
+  <row row="7">
+    <cell cellsource="A7">dBatteries</cell>
+    <cell cellsource="B7">false</cell>
+  </row>
+  <row row="8">
+    <cell cellsource="A8">diaryUnlocked</cell>
+    <cell cellsource="B8">false</cell>
+  </row>
+  <row row="9">
+    <cell cellsource="A9">drapeRemoved</cell>
+    <cell cellsource="B9">false</cell>
+  </row>
+  <row row="10">
+    <cell cellsource="A10">eyesIn</cell>
+    <cell cellsource="B10">false</cell>
+  </row>
+  <row row="11">
+    <cell cellsource="A11">firstPigeonSent</cell>
+    <cell cellsource="B11">false</cell>
+  </row>
+  <row row="12">
+    <cell cellsource="A12">flareLit</cell>
+    <cell cellsource="B12">false</cell>
+  </row>
+  <row row="13">
+    <cell cellsource="A13">flaresFired</cell>
+    <cell cellsource="B13">0</cell>
+  </row>
+  <row row="14">
+    <cell cellsource="A14">flashlightOn</cell>
+    <cell cellsource="B14">false</cell>
+  </row>
+  <row row="15">
+    <cell cellsource="A15">green</cell>
+    <cell cellsource="B15">0</cell>
+  </row>
+  <row row="16">
+    <cell cellsource="A16">lookedAtCabinet</cell>
+    <cell cellsource="B16">false</cell>
+  </row>
+  <row row="17">
+    <cell cellsource="A17">lookedChest</cell>
+    <cell cellsource="B17">false</cell>
+  </row>
+  <row row="18">
+    <cell cellsource="A18">marble1</cell>
+    <cell cellsource="B18">""</cell>
+  </row>
+  <row row="19">
+    <cell cellsource="A19">marble2</cell>
+    <cell cellsource="B19">""</cell>
+  </row>
+  <row row="20">
+    <cell cellsource="A20">marbles</cell>
+    <cell cellsource="B20">0</cell>
+  </row>
+  <row row="21">
+    <cell cellsource="A21">monsterGone</cell>
+    <cell cellsource="B21">false</cell>
+  </row>
+  <row row="22">
+    <cell cellsource="A22">monsterOut</cell>
+    <cell cellsource="B22">false</cell>
+  </row>
+  <row row="23">
+    <cell cellsource="A23">monstersInHouse</cell>
+    <cell cellsource="B23">false</cell>
+  </row>
+  <row row="24">
+    <cell cellsource="A24">moveBoxes</cell>
+    <cell cellsource="B24">false</cell>
+  </row>
+  <row row="25">
+    <cell cellsource="A25">pigeonHasLanded</cell>
+    <cell cellsource="B25">false</cell>
+  </row>
+  <row row="26">
+    <cell cellsource="A26">playedSimon</cell>
+    <cell cellsource="B26">false</cell>
+  </row>
+  <row row="27">
+    <cell cellsource="A27">pouch</cell>
+    <cell cellsource="B27">false</cell>
+  </row>
+  <row row="28">
+    <cell cellsource="A28">power</cell>
+    <cell cellsource="B28">false</cell>
+  </row>
+  <row row="29">
+    <cell cellsource="A29">secondPigeonSent</cell>
+    <cell cellsource="B29">false</cell>
+  </row>
+  <row row="30">
+    <cell cellsource="A30">seenCultists</cell>
+    <cell cellsource="B30">false</cell>
+  </row>
+  <row row="31">
+    <cell cellsource="A31">stairBattle</cell>
+    <cell cellsource="B31">false</cell>
+  </row>
+  <row row="32">
+    <cell cellsource="A32">thirdPigeonSent</cell>
+    <cell cellsource="B32">false</cell>
+  </row>
+  <row row="33">
+    <cell cellsource="A33">wroteInDiary</cell>
+    <cell cellsource="B33">false</cell>
+  </row>
+  <row row="34">
+    <cell cellsource="A34">red</cell>
+    <cell cellsource="B34">0</cell>
+  </row>
+</data>

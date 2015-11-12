@@ -1,0 +1,2699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChatMapperProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Language="en-US" Title="Games" Version="1.5.1.0" Author="" EmphasisColor1="#E7955B" EmphasisStyle1="b--" EmphasisColor1Label="" EmphasisColor2="#44B634" EmphasisStyle2="b--" EmphasisColor2Label="" EmphasisColor3="#4688E6" EmphasisStyle3="b--" EmphasisColor3Label="" EmphasisColor4="#CCCCCC" EmphasisStyle4="b--" EmphasisColor4Label="">
+  <Description>Project configured for game development.</Description>
+  <Assets>
+    <Actors>
+      <Actor ID="1">
+        <Fields>
+          <Field Hint="A name to reference this actor." Type="Text">
+            <Title>Name</Title>
+            <Value>JOEY PC</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this actor." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what makes this actor unique." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="Mark this box if this actor is the main player character." Type="Boolean">
+            <Title>IsPlayer</Title>
+            <Value>True</Value>
+          </Field>
+          <Field Hint="The actor's gender." Type="Text">
+            <Title>Gender</Title>
+            <Value />
+          </Field>
+          <Field Hint="2D art assets." Type="Files">
+            <Title>Texture Files</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="3D art assets." Type="Files">
+            <Title>Model Files</Title>
+            <Value>[]</Value>
+          </Field>
+        </Fields>
+      </Actor>
+      <Actor ID="2">
+        <Fields>
+          <Field Hint="A name to reference this actor." Type="Text">
+            <Title>Name</Title>
+            <Value>JUDE NPC</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this actor." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what makes this actor unique." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="Mark this box if this actor is the main player character." Type="Boolean">
+            <Title>IsPlayer</Title>
+            <Value>False</Value>
+          </Field>
+          <Field Hint="The actor's gender." Type="Text">
+            <Title>Gender</Title>
+            <Value />
+          </Field>
+          <Field Hint="2D art assets." Type="Files">
+            <Title>Texture Files</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="3D art assets." Type="Files">
+            <Title>Model Files</Title>
+            <Value>[]</Value>
+          </Field>
+        </Fields>
+      </Actor>
+      <Actor ID="3">
+        <Fields>
+          <Field Hint="A name to reference this actor." Type="Text">
+            <Title>Name</Title>
+            <Value>JOEY NPC</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this actor." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what makes this actor unique." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="Mark this box if this actor is the main player character." Type="Boolean">
+            <Title>IsPlayer</Title>
+            <Value>False</Value>
+          </Field>
+          <Field Hint="The actor's gender." Type="Text">
+            <Title>Gender</Title>
+            <Value />
+          </Field>
+          <Field Hint="2D art assets." Type="Files">
+            <Title>Texture Files</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="3D art assets." Type="Files">
+            <Title>Model Files</Title>
+            <Value>[]</Value>
+          </Field>
+        </Fields>
+      </Actor>
+    </Actors>
+    <Items>
+      <Item ID="1">
+        <Fields>
+          <Field Hint="A name to reference this item." Type="Text">
+            <Title>Name</Title>
+            <Value>New Item</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this item." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what this item looks like." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="Why does this item exist?" Type="Text">
+            <Title>Purpose</Title>
+            <Value />
+          </Field>
+          <Field Hint="Where is the main home for this item?" Type="Location">
+            <Title>Primary Location</Title>
+            <Value>-1</Value>
+          </Field>
+          <Field Hint="Effect that this item has on the player." Type="Text">
+            <Title>Effect</Title>
+            <Value />
+          </Field>
+          <Field Hint="The actor that is associated with this item." Type="Actor">
+            <Title>Associated With</Title>
+            <Value>-1</Value>
+          </Field>
+          <Field Hint="Another item that this one can combine with." Type="Item">
+            <Title>Combines With</Title>
+            <Value>-1</Value>
+          </Field>
+          <Field Hint="The condition of an item may change." Type="Text">
+            <Title>Condition</Title>
+            <Value />
+          </Field>
+          <Field Hint="2D art assets." Type="Files">
+            <Title>Texture Files</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="3D art assets." Type="Files">
+            <Title>Model Files</Title>
+            <Value>[]</Value>
+          </Field>
+        </Fields>
+      </Item>
+    </Items>
+    <Locations>
+      <Location ID="1">
+        <Fields>
+          <Field Hint="A name to reference this location." Type="Text">
+            <Title>Name</Title>
+            <Value>New Location</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this location." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what this location looks like." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="Top level classification of a story segment." Type="Text">
+            <Title>Act</Title>
+            <Value />
+          </Field>
+          <Field Hint="Second level classification of a story segment." Type="Text">
+            <Title>Chapter</Title>
+            <Value />
+          </Field>
+          <Field Hint="Third level classification of a story segment." Type="Text">
+            <Title>Scene</Title>
+            <Value />
+          </Field>
+          <Field Hint="Fourth level classification of a story segment." Type="Text">
+            <Title>Level</Title>
+            <Value />
+          </Field>
+          <Field Hint="Why does this location exist?" Type="Text">
+            <Title>Purpose</Title>
+            <Value />
+          </Field>
+          <Field Hint="If this is an outdoor location, what is the weather like?" Type="Text">
+            <Title>Climate</Title>
+            <Value />
+          </Field>
+          <Field Hint="How does this location make you feel?" Type="Text">
+            <Title>Mood</Title>
+            <Value />
+          </Field>
+          <Field Hint="2D art assets." Type="Files">
+            <Title>Texture Files</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="3D art assets." Type="Files">
+            <Title>Model Files</Title>
+            <Value>[]</Value>
+          </Field>
+        </Fields>
+      </Location>
+    </Locations>
+    <Conversations>
+      <Conversation ID="1" LockedMode="Unlocked" NodeColor="Red">
+        <Fields>
+          <Field Hint="The title of this conversation." Type="Text">
+            <Title>Title</Title>
+            <Value>A1__S1__D1</Value>
+          </Field>
+          <Field Hint="A collection of image files that represent this conversation. The first is used as the background image." Type="Files">
+            <Title>Pictures</Title>
+            <Value>[]</Value>
+          </Field>
+          <Field Hint="A short description of what happens in this conversation." Type="Text">
+            <Title>Description</Title>
+            <Value />
+          </Field>
+          <Field Hint="The actor who is doing most of the talking, or initiates this conversation." Type="Actor">
+            <Title>Actor</Title>
+            <Value>1</Value>
+          </Field>
+          <Field Hint="The actor who is approached or is mostly talked to." Type="Actor">
+            <Title>Conversant</Title>
+            <Value>2</Value>
+          </Field>
+          <Field Hint="Top level classification of a story segment." Type="Text">
+            <Title>Act</Title>
+            <Value>1</Value>
+          </Field>
+          <Field Hint="Second level classification of a story segment." Type="Text">
+            <Title>Chapter</Title>
+            <Value />
+          </Field>
+          <Field Hint="Third level classification of a story segment." Type="Text">
+            <Title>Scene</Title>
+            <Value>1</Value>
+          </Field>
+          <Field Hint="Fourth level classification of a story segment." Type="Text">
+            <Title>Level</Title>
+            <Value />
+          </Field>
+          <Field Hint="How does this conversation generally make the actor's feel?" Type="Text">
+            <Title>Mood</Title>
+            <Value>pissy</Value>
+          </Field>
+          <Field Hint="Location that this conversation takes place." Type="Location">
+            <Title>Primary Location</Title>
+            <Value>-1</Value>
+          </Field>
+        </Fields>
+        <DialogEntries>
+          <DialogEntry ID="0" IsRoot="true" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>START</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of animation files that should be played during this dialogue." Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="0" DestinationDialogID="1" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="1" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>jude, are you there?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="1" DestinationDialogID="2" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="2" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>of course im here... ive been blinking some emergency morse code at you like a lunatic... over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="2" DestinationDialogID="5" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="3" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>anyway the gist of my urgent code was that you should turn on your stupid walkie talkie for a debriefing! what were you DOING, and are you OK? over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="3" DestinationDialogID="6" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="5" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>so i saw you. you, uh. don't actually know morse code, do you?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="5" DestinationDialogID="7" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="6" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>FINE</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: i’m fine.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="6" DestinationDialogID="38" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="4" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>what puzzle? over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="4" DestinationDialogID="8" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="8" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>never mind what puzzle! the important thing is now i'm trapped in my room by that gross snakey beast!</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="8" DestinationDialogID="11" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="9" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>that sucks joey... i knew this day would come. i had a bad feeling... a baaad feeling… over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="9" DestinationDialogID="10" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="10" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>DAY</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: what day??</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="10" DestinationDialogID="39" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="12" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>i cant go into it now... theres no time.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="12" DestinationDialogID="34" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="13" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>BROTHER</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: oh brother.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="13" DestinationDialogID="40" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="14" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>UM</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: ummmm.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="14" DestinationDialogID="41" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="15" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>WOWOVER</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: wow. over.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="15" DestinationDialogID="42" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="16" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>i choose to take that as a remark of admiration directed at my incredible reconnaissance work... youre welcome.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="16" DestinationDialogID="35" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="17" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>no, i'm good.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="17" DestinationDialogID="21" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="18" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>i see you are quite appropriately dumbfounded by my incredible reconnaissance work... youre welcome.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="18" DestinationDialogID="35" IsConnector="true" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="19" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>im glad to hear youre finally taking the situation seriously and saying over when youre done talking. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="19" DestinationDialogID="20" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="20" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>that 'over' was sarcastic!</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="20" DestinationDialogID="21" IsConnector="true" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="21" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>argh! over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="21" DestinationDialogID="36" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="22" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>battleplans?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="22" DestinationDialogID="23" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="23" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>yes... but dont go facing that monster unarmed... youre going to need a weapon.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="23" DestinationDialogID="37" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="24" IsRoot="false" IsGroup="false" NodeColor="Orange" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>OHNO</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>JOEY: oh no.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="24" DestinationDialogID="43" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="26" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>so go get it. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="26" DestinationDialogID="27" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="27" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>no, i mean the hallway closet. :(</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="27" DestinationDialogID="28" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="28" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>#$%*#@. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="28" DestinationDialogID="29" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="29" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>yeah. guess i've got to suck it up, and try sneakin' outta here unarmed.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="29" DestinationDialogID="30" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="30" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>good luck sis. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="30" DestinationDialogID="31" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="31" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>over and out, buddy.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks />
+            <ConditionsString />
+            <UserScript>Variable["joeyActiveConvo"] = Variable["convo_1_1_joey_2nd_jude_convo"];
+Variable["contactedJude"] = true;</UserScript>
+          </DialogEntry>
+          <DialogEntry ID="7" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>im pretty sure most of those blinks were real letters. </Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="7" DestinationDialogID="3" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="11" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>it was bangin' away on my door, but it seems to have stopped.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="11" DestinationDialogID="25" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="25" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>i'm afraid if i leave my room, it's waiting to pounce on me!</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="25" DestinationDialogID="9" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="33" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>what exactly is going on here? or at least, what is it you THINK is going on?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="33" DestinationDialogID="12" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="34" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>its this whole huge thing. the mother of all conspiracies joe... this is the BIG one. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="34" DestinationDialogID="13" IsConnector="false" />
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="34" DestinationDialogID="14" IsConnector="false" />
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="34" DestinationDialogID="15" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="35" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>also you really should be saying over when youre done talking... over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="35" DestinationDialogID="17" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="36" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>no! not over! joey ill explain later but you should try to get out of there so we can regroup and make battleplans. over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="36" DestinationDialogID="22" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="37" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>do you remember where you keep your weapon of choice... from the old strifing days with pa? over</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="37" DestinationDialogID="24" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="38" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>i'm fine. i was just having some technical difficulties, but i solved the puzzle no sweat.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="38" DestinationDialogID="4" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="39" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>what day?? jude, what WAS that snakey thing, anyway?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="39" DestinationDialogID="33" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="40" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>oh brother.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="40" DestinationDialogID="16" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="41" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>ummmm.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="41" DestinationDialogID="18" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="42" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>wow.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="42" DestinationDialogID="32" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="43" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>oh no. i think it's in the closet!</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="43" DestinationDialogID="26" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="32" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>over.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Data for custom Unity actions" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="32" DestinationDialogID="19" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+        </DialogEntries>
+      </Conversation>
+    </Conversations>
+    <UserVariables>
+      <UserVariable>
+        <Fields>
+          <Field Hint="The name of this variable." Type="Text">
+            <Title>Name</Title>
+            <Value>contactedJude</Value>
+          </Field>
+          <Field Hint="The default initial value of this variable." Type="Boolean">
+            <Title>Initial Value</Title>
+            <Value>false</Value>
+          </Field>
+          <Field Hint="A short description of what this variable is for." Type="Text">
+            <Title>Description</Title>
+            <Value>Whether A1S1D1-JJ has completed or not.</Value>
+          </Field>
+        </Fields>
+      </UserVariable>
+    </UserVariables>
+  </Assets>
+</ChatMapperProject>

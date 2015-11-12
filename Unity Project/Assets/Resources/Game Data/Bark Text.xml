@@ -1,0 +1,77 @@
+<data>
+  <row row="1">
+    <cell address="A1">_key</cell>
+    <cell address="B1">_text</cell>
+    <cell address="C1">_text</cell>
+  </row>
+  <row row="2">
+    <cell address="A2">BARK_LANGUAGE</cell>
+    <cell address="B2">English</cell>
+    <cell address="C2">Italian</cell>
+  </row>
+  <row row="3">
+    <cell address="A3">BARK_1_6_JOEY_EEP</cell>
+    <cell address="B3">eep!!!!!</cell>
+    <cell address="C3" />
+  </row>
+  <row row="4">
+    <cell address="A4">BARK_1_6_JOEY_LETS_DANCE</cell>
+    <cell address="B4">let's dance.</cell>
+    <cell address="C4" />
+  </row>
+  <row row="5">
+    <cell address="A5">BARK_1_6_JOEY_OW</cell>
+    <cell address="B5">OW!</cell>
+    <cell address="C5" />
+  </row>
+  <row row="6">
+    <cell address="A6">BARK_1_9_JUDE_BYERS_1</cell>
+    <cell address="B6">this is it, byers. this is for all the marbles. //literally all the marbles, ok? //please, for the love of god, dont mess this up.</cell>
+    <cell address="C6" />
+  </row>
+  <row row="7">
+    <cell address="A7">BARK_1_9_JUDE_BYERS_2</cell>
+    <cell address="B7">yeah!!! byers you beautiful bastard, i could KISS you!</cell>
+    <cell address="C7" />
+  </row>
+  <row row="8">
+    <cell address="A8">BARK_1_9_JUDE_FROHIKE_1</cell>
+    <cell address="B8">ok frohike. got a mission for you buddy.</cell>
+    <cell address="C8" />
+  </row>
+  <row row="9">
+    <cell address="A9">BARK_1_9_JUDE_FROHIKE_2</cell>
+    <cell address="B9">take these to joey. everythings riding on you. //godspeed dear friend.</cell>
+    <cell address="C9" />
+  </row>
+  <row row="10">
+    <cell address="A10">BARK_1_9_JUDE_FROHIKE_3</cell>
+    <cell address="B10">nooooooooooo!</cell>
+    <cell address="C10" />
+  </row>
+  <row row="11">
+    <cell address="A11">BARK_1_9_JUDE_LANGLY_1</cell>
+    <cell address="B11">its all up to you now, langly. the fate of mankind rests on your feathery shoulders!</cell>
+    <cell address="C11" />
+  </row>
+  <row row="12">
+    <cell address="A12">BARK_1_9_JUDE_LANGLY_2</cell>
+    <cell address="B12">... //i dont know what i was expecting.</cell>
+    <cell address="C12" />
+  </row>
+  <row row="13">
+    <cell address="A13">BARK_1_9_JUDE_LOOK_NORTH_WINDOW_CU_MANSION</cell>
+    <cell address="B13">its tough and no one understands...</cell>
+    <cell address="C13" />
+  </row>
+  <row row="14">
+    <cell address="A14">BARK_1_2_POWER</cell>
+    <cell address="B14">oh man, there goes the power!</cell>
+    <cell address="C14" />
+  </row>
+  <row row="15">
+    <cell address="A15">BARK_1_1_MISS_YOU_MOM</cell>
+    <cell address="B15">miss you, mom.</cell>
+    <cell address="C15" />
+  </row>
+</data>

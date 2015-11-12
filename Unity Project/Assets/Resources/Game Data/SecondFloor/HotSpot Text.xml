@@ -1,0 +1,537 @@
+<data>
+  <row row="1">
+    <cell cellsource="A1">_key</cell>
+    <cell cellsource="B1">_text</cell>
+    <cell cellsource="C1">_text</cell>
+  </row>
+  <row row="2">
+    <cell cellsource="A2">HST_LANGUAGE</cell>
+    <cell cellsource="B2">English</cell>
+    <cell cellsource="C2">Italian</cell>
+  </row>
+  <row row="3">
+    <cell cellsource="A3">HST_1_2_ATTIC_STAIRS</cell>
+    <cell cellsource="B3">ATTIC STAIRS</cell>
+    <cell cellsource="C3" />
+  </row>
+  <row row="4">
+    <cell cellsource="A4">HST_1_2_BEDROOM_DOOR</cell>
+    <cell cellsource="B4">BEDROOM</cell>
+    <cell cellsource="C4" />
+  </row>
+  <row row="5">
+    <cell cellsource="A5">HST_1_2_CARDBOARD_BOX_SHELF</cell>
+    <cell cellsource="B5">CARDBOARD BOX</cell>
+    <cell cellsource="C5" />
+  </row>
+  <row row="6">
+    <cell cellsource="A6">HST_1_2_CARDBOARD_BOX_FLOOR</cell>
+    <cell cellsource="B6">CARDBOARD BOX</cell>
+    <cell cellsource="C6" />
+  </row>
+  <row row="7">
+    <cell cellsource="A7">HST_1_2_DOWNSTAIRS</cell>
+    <cell cellsource="B7">DOWNSTAIRS</cell>
+    <cell cellsource="C7" />
+  </row>
+  <row row="8">
+    <cell cellsource="A8">HST_1_2_DRESSER_WITH_LAMPSHADE</cell>
+    <cell cellsource="B8">DRESSER</cell>
+    <cell cellsource="C8" />
+  </row>
+  <row row="9">
+    <cell cellsource="A9">HST_1_2_GLOBE-LIKE_SCULPTURE</cell>
+    <cell cellsource="B9">GLOBE-LIKE SCULPTURE</cell>
+    <cell cellsource="C9" />
+  </row>
+  <row row="10">
+    <cell cellsource="A10">HST_1_2_HALL_CLOSET</cell>
+    <cell cellsource="B10">HALL CLOSET</cell>
+    <cell cellsource="C10" />
+  </row>
+  <row row="11">
+    <cell cellsource="A11">HST_1_2_JUDE_BEDROOM</cell>
+    <cell cellsource="B11">JUDE'S BEDROOM</cell>
+    <cell cellsource="C11" />
+  </row>
+  <row row="12">
+    <cell cellsource="A12">HST_1_2_SIDE_TABLE</cell>
+    <cell cellsource="B12">SIDE TABLE</cell>
+    <cell cellsource="C12" />
+  </row>
+  <row row="13">
+    <cell cellsource="A13">HST_1_2_STATUE_WITH_DARTS</cell>
+    <cell cellsource="B13">STATUE</cell>
+    <cell cellsource="C13" />
+  </row>
+  <row row="14">
+    <cell cellsource="A14">HST_1_2_SUPER_SOAKER</cell>
+    <cell cellsource="B14">SUPER SOAKER</cell>
+    <cell cellsource="C14" />
+  </row>
+  <row row="15">
+    <cell cellsource="A15">HST_1_3_ATTIC_DOOR</cell>
+    <cell cellsource="B15">ATTIC DOOR</cell>
+    <cell cellsource="C15" />
+  </row>
+  <row row="16">
+    <cell cellsource="A16">HST_1_3_HALLWAY_DOOR</cell>
+    <cell cellsource="B16">HALLWAY DOOR</cell>
+    <cell cellsource="C16" />
+  </row>
+  <row row="17">
+    <cell cellsource="A17">HST_1_3_SLINKY</cell>
+    <cell cellsource="B17">SLINKY</cell>
+    <cell cellsource="C17" />
+  </row>
+  <row row="18">
+    <cell cellsource="A18">HST_1_3_ATTIC_STUFF_BOTTOM</cell>
+    <cell cellsource="B18">ATTIC STUFF</cell>
+    <cell cellsource="C18" />
+  </row>
+  <row row="19">
+    <cell cellsource="A19">HST_1_3_ATTIC_STUFF_TOP</cell>
+    <cell cellsource="B19">ATTIC STUFF</cell>
+    <cell cellsource="C19" />
+  </row>
+  <row row="20">
+    <cell cellsource="A20">HST_1_3_CATERPILLAR</cell>
+    <cell cellsource="B20">CATERPILLAR</cell>
+    <cell cellsource="C20" />
+  </row>
+  <row row="21">
+    <cell cellsource="A21">HST_1_4_BOTTOM_PHOTOS</cell>
+    <cell cellsource="B21">PHOTOS</cell>
+    <cell cellsource="C21" />
+  </row>
+  <row row="22">
+    <cell cellsource="A22">HST_1_4_BOTTOM_PHOTOS_CU_BEAUTY_PHOTO</cell>
+    <cell cellsource="B22">BEAUTY PHOTO</cell>
+    <cell cellsource="C22" />
+  </row>
+  <row row="23">
+    <cell cellsource="A23">HST_1_4_BOTTOM_PHOTOS_CU_OLD_PHOTO</cell>
+    <cell cellsource="B23">OLD PHOTO</cell>
+    <cell cellsource="C23" />
+  </row>
+  <row row="24">
+    <cell cellsource="A24">HST_1_4_BOTTOM_PHOTOS_CU_WEDDING_PHOTO</cell>
+    <cell cellsource="B24">WEDDING PHOTO</cell>
+    <cell cellsource="C24" />
+  </row>
+  <row row="25">
+    <cell cellsource="A25">HST_1_4_DOWN</cell>
+    <cell cellsource="B25">DOWN</cell>
+    <cell cellsource="C25" />
+  </row>
+  <row row="26">
+    <cell cellsource="A26">HST_1_4_SERPENT_STATUE</cell>
+    <cell cellsource="B26">SERPENT STATUE</cell>
+    <cell cellsource="C26" />
+  </row>
+  <row row="27">
+    <cell cellsource="A27">HST_1_4_TOP_PHOTOS</cell>
+    <cell cellsource="B27">PHOTOS</cell>
+    <cell cellsource="C27" />
+  </row>
+  <row row="28">
+    <cell cellsource="A28">HST_1_4_TOP_PHOTOS_CU_FAMILY_PHOTO</cell>
+    <cell cellsource="B28">FAMILY PHOTO</cell>
+    <cell cellsource="C28" />
+  </row>
+  <row row="29">
+    <cell cellsource="A29">HST_1_4_TOP_PHOTOS_CU_HUNTING_PHOTO</cell>
+    <cell cellsource="B29">HUNTING PHOTO</cell>
+    <cell cellsource="C29" />
+  </row>
+  <row row="30">
+    <cell cellsource="A30">HST_1_4_TOP_PHOTOS_CU_SCHOOL_PHOTOS</cell>
+    <cell cellsource="B30">SCHOOL PHOTOS</cell>
+    <cell cellsource="C30" />
+  </row>
+  <row row="31">
+    <cell cellsource="A31">HST_1_4_UP</cell>
+    <cell cellsource="B31">UP</cell>
+    <cell cellsource="C31" />
+  </row>
+  <row row="32">
+    <cell cellsource="A32">HST_1_4_WINDOW</cell>
+    <cell cellsource="B32">WINDOW</cell>
+    <cell cellsource="C32" />
+  </row>
+  <row row="33">
+    <cell cellsource="A33">HST_1_4_WINDOW_CU_BUSHES</cell>
+    <cell cellsource="B33">BUSHES</cell>
+    <cell cellsource="C33" />
+  </row>
+  <row row="34">
+    <cell cellsource="A34">HST_1_4_WINDOW_CU_FIGURES</cell>
+    <cell cellsource="B34">SHADOWY FIGURES</cell>
+    <cell cellsource="C34" />
+  </row>
+  <row row="35">
+    <cell cellsource="A35">HST_1_4_WINDOW_CU_LEAVES</cell>
+    <cell cellsource="B35">PILE OF LEAVES</cell>
+    <cell cellsource="C35" />
+  </row>
+  <row row="36">
+    <cell cellsource="A36">HST_1_4_WINDOW_CU_MANSION</cell>
+    <cell cellsource="B36">SPOOKY MANSION</cell>
+    <cell cellsource="C36" />
+  </row>
+  <row row="37">
+    <cell cellsource="A37">HST_1_4_WINDOW_CU_SKY</cell>
+    <cell cellsource="B37">SKY</cell>
+    <cell cellsource="C37" />
+  </row>
+  <row row="38">
+    <cell cellsource="A38">HST_1_4_WINDOW_CU_TREEHOUSE</cell>
+    <cell cellsource="B38">JUDE'S TREEHOUSE</cell>
+    <cell cellsource="C38" />
+  </row>
+  <row row="39">
+    <cell cellsource="A39">HST_1_10_DOOR</cell>
+    <cell cellsource="B39">ATTIC DOOR</cell>
+    <cell cellsource="C39" />
+  </row>
+  <row row="40">
+    <cell cellsource="A40">HST_1_10_STUFF</cell>
+    <cell cellsource="B40">DUSTY WEIRD OLD STUFF</cell>
+    <cell cellsource="C40" />
+  </row>
+  <row row="41">
+    <cell cellsource="A41">HST_1_10_GLOBES</cell>
+    <cell cellsource="B41">OLD GLOBES</cell>
+    <cell cellsource="C41" />
+  </row>
+  <row row="42">
+    <cell cellsource="A42">HST_1_10_LAMP</cell>
+    <cell cellsource="B42">QUESTIONABLE LAMP</cell>
+    <cell cellsource="C42" />
+  </row>
+  <row row="43">
+    <cell cellsource="A43">HST_1_10_SARCOPHAGUS</cell>
+    <cell cellsource="B43">IS THAT A MUMMY?</cell>
+    <cell cellsource="C43" />
+  </row>
+  <row row="44">
+    <cell cellsource="A44">HST_1_10_GUNS</cell>
+    <cell cellsource="B44">ANTIQUE GUNS</cell>
+    <cell cellsource="C44" />
+  </row>
+  <row row="45">
+    <cell cellsource="A45">HST_1_10_GUN</cell>
+    <cell cellsource="B45">PA'S SECOND-BEST SHOTGUN</cell>
+    <cell cellsource="C45" />
+  </row>
+  <row row="46">
+    <cell cellsource="A46">HST_1_10_CRATE</cell>
+    <cell cellsource="B46">BUSTED WOODEN CRATE</cell>
+    <cell cellsource="C46" />
+  </row>
+  <row row="47">
+    <cell cellsource="A47">HST_1_10_STRAW</cell>
+    <cell cellsource="B47">STRAW</cell>
+    <cell cellsource="C47" />
+  </row>
+  <row row="48">
+    <cell cellsource="A48">HST_1_10_INVOICE</cell>
+    <cell cellsource="B48">SHIPPING INVOICE</cell>
+    <cell cellsource="C48" />
+  </row>
+  <row row="49">
+    <cell cellsource="A49">HST_1_10_CAGES</cell>
+    <cell cellsource="B49">CAGES</cell>
+    <cell cellsource="C49" />
+  </row>
+  <row row="50">
+    <cell cellsource="A50">HST_1_10_CRANE</cell>
+    <cell cellsource="B50">CRANE</cell>
+    <cell cellsource="C50" />
+  </row>
+  <row row="51">
+    <cell cellsource="A51">HST_1_10_MASKS</cell>
+    <cell cellsource="B51">MASK</cell>
+    <cell cellsource="C51" />
+  </row>
+  <row row="52">
+    <cell cellsource="A52">HST_1_10_HAND_IN_JAR</cell>
+    <cell cellsource="B52">HAND IN JAR</cell>
+    <cell cellsource="C52" />
+  </row>
+  <row row="53">
+    <cell cellsource="A53">HST_1_10_BROKEN_GLOBE</cell>
+    <cell cellsource="B53">BROKEN GLOBE</cell>
+    <cell cellsource="C53" />
+  </row>
+  <row row="54">
+    <cell cellsource="A54">HST_1_10_SWITCH</cell>
+    <cell cellsource="B54">BIG SWITCH</cell>
+    <cell cellsource="C54" />
+  </row>
+  <row row="55">
+    <cell cellsource="A55">HST_1_10_DRAPE</cell>
+    <cell cellsource="B55">DRAPE</cell>
+    <cell cellsource="C55" />
+  </row>
+  <row row="56">
+    <cell cellsource="A56">HST_1_10_PORTAL</cell>
+    <cell cellsource="B56">IMPRESSIVE PIECE OF MACHINERY</cell>
+    <cell cellsource="C56" />
+  </row>
+  <row row="57">
+    <cell cellsource="A57">HST_1_10_PORTAL_KEYHOLE</cell>
+    <cell cellsource="B57">KEYHOLE</cell>
+    <cell cellsource="C57" />
+  </row>
+  <row row="58">
+    <cell cellsource="A58">HST_1_1_ANIMAL_POSTERS</cell>
+    <cell cellsource="B58">POSTERS</cell>
+    <cell cellsource="C58" />
+  </row>
+  <row row="59">
+    <cell cellsource="A59">HST_1_1_BALLETSTATUE</cell>
+    <cell cellsource="B59">BALLERINA STATUE</cell>
+    <cell cellsource="C59" />
+  </row>
+  <row row="60">
+    <cell cellsource="A60">HST_1_1_BEANBAG</cell>
+    <cell cellsource="B60">BEANBAG</cell>
+    <cell cellsource="C60" />
+  </row>
+  <row row="61">
+    <cell cellsource="A61">HST_1_1_BED</cell>
+    <cell cellsource="B61">BED</cell>
+    <cell cellsource="C61" />
+  </row>
+  <row row="62">
+    <cell cellsource="A62">HST_1_1_BOOKS1</cell>
+    <cell cellsource="B62">BOOKS</cell>
+    <cell cellsource="C62" />
+  </row>
+  <row row="63">
+    <cell cellsource="A63">HST_1_1_BOOKS2</cell>
+    <cell cellsource="B63">BOOKS</cell>
+    <cell cellsource="C63" />
+  </row>
+  <row row="64">
+    <cell cellsource="A64">HST_1_1_BOOKS3</cell>
+    <cell cellsource="B64">BOOKS</cell>
+    <cell cellsource="C64" />
+  </row>
+  <row row="65">
+    <cell cellsource="A65">HST_1_1_BUBSY_POSTER</cell>
+    <cell cellsource="B65">BUBSY POSTER</cell>
+    <cell cellsource="C65" />
+  </row>
+  <row row="66">
+    <cell cellsource="A66">HST_1_1_CALENDAR</cell>
+    <cell cellsource="B66">CALENDAR</cell>
+    <cell cellsource="C66" />
+  </row>
+  <row row="67">
+    <cell cellsource="A67">HST_1_1_CEILING</cell>
+    <cell cellsource="B67">CEILING</cell>
+    <cell cellsource="C67" />
+  </row>
+  <row row="68">
+    <cell cellsource="A68">HST_1_1_CEILING_CU_STAR</cell>
+    <cell cellsource="B68">STAR</cell>
+    <cell cellsource="C68" />
+  </row>
+  <row row="69">
+    <cell cellsource="A69">HST_1_1_CEILING_CU_STARS</cell>
+    <cell cellsource="B69">GLOW-IN-THE-DARK STARS</cell>
+    <cell cellsource="C69" />
+  </row>
+  <row row="70">
+    <cell cellsource="A70">HST_1_1_CEILING_CU_SUN</cell>
+    <cell cellsource="B70">SUN</cell>
+    <cell cellsource="C70" />
+  </row>
+  <row row="71">
+    <cell cellsource="A71">HST_1_1_CLARISSA_POSTER</cell>
+    <cell cellsource="B71">POSTER</cell>
+    <cell cellsource="C71" />
+  </row>
+  <row row="72">
+    <cell cellsource="A72">HST_1_1_CLOSET</cell>
+    <cell cellsource="B72">CLOSET</cell>
+    <cell cellsource="C72" />
+  </row>
+  <row row="73">
+    <cell cellsource="A73">HST_1_1_CLOSET_CU_PUZZLES</cell>
+    <cell cellsource="B73">PUZZLE COLLECTION</cell>
+    <cell cellsource="C73" />
+  </row>
+  <row row="74">
+    <cell cellsource="A74">HST_1_1_CLOSET_CU_SIMON</cell>
+    <cell cellsource="B74">SIMON</cell>
+    <cell cellsource="C74" />
+  </row>
+  <row row="75">
+    <cell cellsource="A75">HST_1_1_CLOSET_POSTER</cell>
+    <cell cellsource="B75">POSTER</cell>
+    <cell cellsource="C75" />
+  </row>
+  <row row="76">
+    <cell cellsource="A76">HST_1_1_CLOSET2</cell>
+    <cell cellsource="B76">CLOSET</cell>
+    <cell cellsource="C76" />
+  </row>
+  <row row="77">
+    <cell cellsource="A77">HST_1_1_COMPUTER</cell>
+    <cell cellsource="B77">COMPUTER</cell>
+    <cell cellsource="C77" />
+  </row>
+  <row row="78">
+    <cell cellsource="A78">HST_1_1_CONNECT4</cell>
+    <cell cellsource="B78">CONNECT 4</cell>
+    <cell cellsource="C78" />
+  </row>
+  <row row="79">
+    <cell cellsource="A79">HST_1_1_DIARY</cell>
+    <cell cellsource="B79">DIARY</cell>
+    <cell cellsource="C79" />
+  </row>
+  <row row="80">
+    <cell cellsource="A80">HST_1_1_DOOR</cell>
+    <cell cellsource="B80">DOOR</cell>
+    <cell cellsource="C80" />
+  </row>
+  <row row="81">
+    <cell cellsource="A81">HST_1_1_DRESSER</cell>
+    <cell cellsource="B81">DRESSER</cell>
+    <cell cellsource="C81" />
+  </row>
+  <row row="82">
+    <cell cellsource="A82">HST_1_1_GAMEPOSTERS</cell>
+    <cell cellsource="B82">POSTERS</cell>
+    <cell cellsource="C82" />
+  </row>
+  <row row="83">
+    <cell cellsource="A83">HST_1_1_LF_POSTERS</cell>
+    <cell cellsource="B83">POSTERS</cell>
+    <cell cellsource="C83" />
+  </row>
+  <row row="84">
+    <cell cellsource="A84">HST_1_1_MOM_PHOTO</cell>
+    <cell cellsource="B84">PHOTO</cell>
+    <cell cellsource="C84" />
+  </row>
+  <row row="85">
+    <cell cellsource="A85">HST_1_1_MOTHER2_POSTER</cell>
+    <cell cellsource="B85">POSTER</cell>
+    <cell cellsource="C85" />
+  </row>
+  <row row="86">
+    <cell cellsource="A86">HST_1_1_MOVIE_POSTERS</cell>
+    <cell cellsource="B86">POSTERS</cell>
+    <cell cellsource="C86" />
+  </row>
+  <row row="87">
+    <cell cellsource="A87">HST_1_1_PHOTO_CU_MOM</cell>
+    <cell cellsource="B87">MOM</cell>
+    <cell cellsource="C87" />
+  </row>
+  <row row="88">
+    <cell cellsource="A88">HST_1_1_PHOTO_CU_YOU</cell>
+    <cell cellsource="B88">YOU</cell>
+    <cell cellsource="C88" />
+  </row>
+  <row row="89">
+    <cell cellsource="A89">HST_1_1_PUPPY_SURPRISE</cell>
+    <cell cellsource="B89">PUPPY SURPRISE</cell>
+    <cell cellsource="C89" />
+  </row>
+  <row row="90">
+    <cell cellsource="A90">HST_1_1_PUPPY_SURPRISE_CU_DIARY_KEY</cell>
+    <cell cellsource="B90">DIARY KEY</cell>
+    <cell cellsource="C90" />
+  </row>
+  <row row="91">
+    <cell cellsource="A91">HST_1_1_PUPPY_SURPRISE_CU_PORTAL_KEY</cell>
+    <cell cellsource="B91">HEIRLOOM THINGAMAJIG</cell>
+    <cell cellsource="C91" />
+  </row>
+  <row row="92">
+    <cell cellsource="A92">HST_1_1_PUPPY_SURPRISE_CU_PUPPIES</cell>
+    <cell cellsource="B92">PUPPY SURPRISE PUPPIES</cell>
+    <cell cellsource="C92" />
+  </row>
+  <row row="93">
+    <cell cellsource="A93">HST_1_1_RAINBOW_BRITE</cell>
+    <cell cellsource="B93">RAINBOW BRITE</cell>
+    <cell cellsource="C93" />
+  </row>
+  <row row="94">
+    <cell cellsource="A94">HST_1_1_SNES</cell>
+    <cell cellsource="B94">SNES</cell>
+    <cell cellsource="C94" />
+  </row>
+  <row row="95">
+    <cell cellsource="A95">HST_1_1_SNESGAMES</cell>
+    <cell cellsource="B95">SNES GAMES</cell>
+    <cell cellsource="C95" />
+  </row>
+  <row row="96">
+    <cell cellsource="A96">HST_1_1_TAP_SHOES</cell>
+    <cell cellsource="B96">TAP SHOES</cell>
+    <cell cellsource="C96" />
+  </row>
+  <row row="97">
+    <cell cellsource="A97">HST_1_1_TOYS</cell>
+    <cell cellsource="B97">TOYS</cell>
+    <cell cellsource="C97" />
+  </row>
+  <row row="98">
+    <cell cellsource="A98">HST_1_1_TV</cell>
+    <cell cellsource="B98">TV</cell>
+    <cell cellsource="C98" />
+  </row>
+  <row row="99">
+    <cell cellsource="A99">HST_1_1_VET_KIT</cell>
+    <cell cellsource="B99">VET KIT</cell>
+    <cell cellsource="C99" />
+  </row>
+  <row row="100">
+    <cell cellsource="A100">HST_1_1_WALKIE_TALKIE</cell>
+    <cell cellsource="B100">WALKIE-TALKIE</cell>
+    <cell cellsource="C100" />
+  </row>
+  <row row="101">
+    <cell cellsource="A101">HST_1_1_WINDOW</cell>
+    <cell cellsource="B101">WINDOW</cell>
+    <cell cellsource="C101" />
+  </row>
+  <row row="102">
+    <cell cellsource="A102">HST_1_1_WINDOW_CU_BUSHES</cell>
+    <cell cellsource="B102">BUSHES</cell>
+    <cell cellsource="C102" />
+  </row>
+  <row row="103">
+    <cell cellsource="A103">HST_1_1_WINDOW_CU_DOGHOUSE</cell>
+    <cell cellsource="B103">DOGHOUSE</cell>
+    <cell cellsource="C103" />
+  </row>
+  <row row="104">
+    <cell cellsource="A104">HST_1_1_WINDOW_CU_FLASHINGLIGHT</cell>
+    <cell cellsource="B104">FLASHING LIGHT</cell>
+    <cell cellsource="C104" />
+  </row>
+  <row row="105">
+    <cell cellsource="A105">HST_1_1_WINDOW_CU_LEAF_PILE</cell>
+    <cell cellsource="B105">PILE OF LEAVES</cell>
+    <cell cellsource="C105" />
+  </row>
+  <row row="106">
+    <cell cellsource="A106">HST_1_1_WINDOW_CU_SKY</cell>
+    <cell cellsource="B106">SKY</cell>
+    <cell cellsource="C106" />
+  </row>
+  <row row="107">
+    <cell cellsource="A107">HST_1_1_WINDOW_CU_TREEHOUSE</cell>
+    <cell cellsource="B107">TREEHOUSE</cell>
+    <cell cellsource="C107" />
+  </row>
+</data>

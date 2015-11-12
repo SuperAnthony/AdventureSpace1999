@@ -1,0 +1,457 @@
+<data>
+  <row row="1">
+    <cell address="A1">_key</cell>
+    <cell address="B1">_text</cell>
+    <cell address="C1">_text</cell>
+  </row>
+  <row row="2">
+    <cell address="A2">VERB_LANGUAGE</cell>
+    <cell address="B2">English</cell>
+    <cell address="C2">Italian</cell>
+  </row>
+  <row row="3">
+    <cell address="A3">VERB_CLIMB</cell>
+    <cell address="B3">CLIMB</cell>
+    <cell address="C3" />
+  </row>
+  <row row="4">
+    <cell address="A4">VERB_EMPTY</cell>
+    <cell address="B4">EMPTY</cell>
+    <cell address="C4" />
+  </row>
+  <row row="5">
+    <cell address="A5">VERB_EXAMINE</cell>
+    <cell address="B5">EXAMINE</cell>
+    <cell address="C5" />
+  </row>
+  <row row="6">
+    <cell address="A6">VERB_EXIT</cell>
+    <cell address="B6">EXIT</cell>
+    <cell address="C6" />
+  </row>
+  <row row="7">
+    <cell address="A7">VERB_GET_POUCH</cell>
+    <cell address="B7">GET POUCH</cell>
+    <cell address="C7" />
+  </row>
+  <row row="8">
+    <cell address="A8">VERB_HIDE</cell>
+    <cell address="B8">HIDE</cell>
+    <cell address="C8" />
+  </row>
+  <row row="9">
+    <cell address="A9">VERB_INSPECT</cell>
+    <cell address="B9">INSPECT</cell>
+    <cell address="C9" />
+  </row>
+  <row row="10">
+    <cell address="A10">VERB_LOOK</cell>
+    <cell address="B10">LOOK</cell>
+    <cell address="C10" />
+  </row>
+  <row row="11">
+    <cell address="A11">VERB_LOOK_OUTSIDE</cell>
+    <cell address="B11">LOOK OUTSIDE</cell>
+    <cell address="C11" />
+  </row>
+  <row row="12">
+    <cell address="A12">VERB_MOVE</cell>
+    <cell address="B12">MOVE</cell>
+    <cell address="C12" />
+  </row>
+  <row row="13">
+    <cell address="A13">VERB_OPEN</cell>
+    <cell address="B13">OPEN</cell>
+    <cell address="C13" />
+  </row>
+  <row row="14">
+    <cell address="A14">VERB_PLAY</cell>
+    <cell address="B14">PLAY</cell>
+    <cell address="C14" />
+  </row>
+  <row row="15">
+    <cell address="A15">VERB_PULL</cell>
+    <cell address="B15">PULL</cell>
+    <cell address="C15" />
+  </row>
+  <row row="16">
+    <cell address="A16">VERB_RAID</cell>
+    <cell address="B16">RAID</cell>
+    <cell address="C16" />
+  </row>
+  <row row="17">
+    <cell address="A17">VERB_REMOVE</cell>
+    <cell address="B17">REMOVE</cell>
+    <cell address="C17" />
+  </row>
+  <row row="18">
+    <cell address="A18">VERB_SEARCH</cell>
+    <cell address="B18">SEARCH</cell>
+    <cell address="C18" />
+  </row>
+  <row row="19">
+    <cell address="A19">VERB_SPIN</cell>
+    <cell address="B19">SPIN</cell>
+    <cell address="C19" />
+  </row>
+  <row row="20">
+    <cell address="A20">VERB_STRIFE</cell>
+    <cell address="B20">STRIFE</cell>
+    <cell address="C20" />
+  </row>
+  <row row="21">
+    <cell address="A21">VERB_TAKE</cell>
+    <cell address="B21">TAKE</cell>
+    <cell address="C21" />
+  </row>
+  <row row="22">
+    <cell address="A22">VERB_TAKE_FLARES</cell>
+    <cell address="B22">TAKE FLARES</cell>
+    <cell address="C22" />
+  </row>
+  <row row="23">
+    <cell address="A23">VERB_THROW</cell>
+    <cell address="B23">THROW</cell>
+    <cell address="C23" />
+  </row>
+  <row row="24">
+    <cell address="A24">VERB_TURN_ON</cell>
+    <cell address="B24">TURN ON</cell>
+    <cell address="C24" />
+  </row>
+  <row row="25">
+    <cell address="A25">VERB_TURN_OFF</cell>
+    <cell address="B25">TURN OFF</cell>
+    <cell address="C25" />
+  </row>
+  <row row="26">
+    <cell address="A26">VERB_TWIST</cell>
+    <cell address="B26">TWIST</cell>
+    <cell address="C26" />
+  </row>
+  <row row="27">
+    <cell address="A27">VERB_USE</cell>
+    <cell address="B27">USE</cell>
+    <cell address="C27" />
+  </row>
+  <row row="28">
+    <cell address="A28">VERB_WASH</cell>
+    <cell address="B28">WASH</cell>
+    <cell address="C28" />
+  </row>
+  <row row="29">
+    <cell address="A29">VERB_WEAR</cell>
+    <cell address="B29">WEAR</cell>
+    <cell address="C29" />
+  </row>
+  <row row="30">
+    <cell address="A30">VERB_WIELD</cell>
+    <cell address="B30">WIELD</cell>
+    <cell address="C30" />
+  </row>
+  <row row="31">
+    <cell address="A31">VERB_BAR_WINDOW</cell>
+    <cell address="B31">BAR WINDOW</cell>
+    <cell address="C31" />
+  </row>
+  <row row="32">
+    <cell address="A32">VERB_UNPLUG</cell>
+    <cell address="B32">UNPLUG</cell>
+    <cell address="C32" />
+  </row>
+  <row row="33">
+    <cell address="A33">VERB_CONSIDER_SIGNIFICANCE</cell>
+    <cell address="B33">CONSIDER SIGNIFICANCE</cell>
+    <cell address="C33" />
+  </row>
+  <row row="34">
+    <cell address="A34">VERB_CALL_FOR_HELP</cell>
+    <cell address="B34">CALL FOR HELP</cell>
+    <cell address="C34" />
+  </row>
+  <row row="35">
+    <cell address="A35">VERB_LEAP_TO_SAFETY</cell>
+    <cell address="B35">LEAP TO SAFETY</cell>
+    <cell address="C35" />
+  </row>
+  <row row="36">
+    <cell address="A36">VERB_REMINISCE</cell>
+    <cell address="B36">REMINISCE</cell>
+    <cell address="C36" />
+  </row>
+  <row row="37">
+    <cell address="A37">VERB_SEEK_ANSWERS_IN_THE_SKY</cell>
+    <cell address="B37">SEEK ANSWERS IN THE SKY</cell>
+    <cell address="C37" />
+  </row>
+  <row row="38">
+    <cell address="A38">VERB_HACK</cell>
+    <cell address="B38">HACK</cell>
+    <cell address="C38" />
+  </row>
+  <row row="39">
+    <cell address="A39">VERB_DISDAIN</cell>
+    <cell address="B39">DISDAIN</cell>
+    <cell address="C39" />
+  </row>
+  <row row="40">
+    <cell address="A40">VERB_HIDE_SECRETS</cell>
+    <cell address="B40">HIDE SECRETS</cell>
+    <cell address="C40" />
+  </row>
+  <row row="41">
+    <cell address="A41">VERB_MISS_MOM</cell>
+    <cell address="B41">MISS MOM</cell>
+    <cell address="C41" />
+  </row>
+  <row row="42">
+    <cell address="A42">VERB_MISS_YOU</cell>
+    <cell address="B42">MISS YOU</cell>
+    <cell address="C42" />
+  </row>
+  <row row="43">
+    <cell address="A43">VERB_HIDE</cell>
+    <cell address="B43">HIDE</cell>
+    <cell address="C43" />
+  </row>
+  <row row="44">
+    <cell address="A44">VERB_WRITE_IN</cell>
+    <cell address="B44">WRITE IN</cell>
+    <cell address="C44" />
+  </row>
+  <row row="45">
+    <cell address="A45">VERB_READ</cell>
+    <cell address="B45">READ</cell>
+    <cell address="C45" />
+  </row>
+  <row row="46">
+    <cell address="A46">VERB_SEEK_COUNSEL</cell>
+    <cell address="B46">SEEK COUNSEL</cell>
+    <cell address="C46" />
+  </row>
+  <row row="47">
+    <cell address="A47">VERB_DEMAND_WESTERN_RELEASE</cell>
+    <cell address="B47">DEMAND WESTERN RELEASE</cell>
+    <cell address="C47" />
+  </row>
+  <row row="48">
+    <cell address="A48">VERB_REGRET</cell>
+    <cell address="B48">REGRET</cell>
+    <cell address="C48" />
+  </row>
+  <row row="49">
+    <cell address="A49">VERB_DESPISE</cell>
+    <cell address="B49">DESPISE</cell>
+    <cell address="C49" />
+  </row>
+  <row row="50">
+    <cell address="A50">VERB_OUTGROW_DREAMS</cell>
+    <cell address="B50">OUTGROW DREAMS</cell>
+    <cell address="C50" />
+  </row>
+  <row row="51">
+    <cell address="A51">VERB_MARK</cell>
+    <cell address="B51">MARK</cell>
+    <cell address="C51" />
+  </row>
+  <row row="52">
+    <cell address="A52">VERB_TAKE_CONTROLLER</cell>
+    <cell address="B52">TAKE CONTROLLER</cell>
+    <cell address="C52" />
+  </row>
+  <row row="53">
+    <cell address="A53">VERB_GAME_GENIE</cell>
+    <cell address="B53">GAME GENIE</cell>
+    <cell address="C53" />
+  </row>
+  <row row="54">
+    <cell address="A54">VERB_BLOW_ON</cell>
+    <cell address="B54">BLOW ON</cell>
+    <cell address="C54" />
+  </row>
+  <row row="55">
+    <cell address="A55">VERB_BECOME_TRUCKER</cell>
+    <cell address="B55">BECOME TRUCKER</cell>
+    <cell address="C55" />
+  </row>
+  <row row="56">
+    <cell address="A56">VERB_SCAVENGE</cell>
+    <cell address="B56">SCAVENGE</cell>
+    <cell address="C56" />
+  </row>
+  <row row="57">
+    <cell address="A57">VERB_WRITE_BOOK_REPORT</cell>
+    <cell address="B57">WRITE BOOK REPORT</cell>
+    <cell address="C57" />
+  </row>
+  <row row="58">
+    <cell address="A58">VERB_STUDY_ILLEGAL_SECRETS</cell>
+    <cell address="B58">STUDY ILLEGAL SECRETS</cell>
+    <cell address="C58" />
+  </row>
+  <row row="59">
+    <cell address="A59">VERB_HEAVILY_ANNOTATE</cell>
+    <cell address="B59">HEAVILY ANNOTATE</cell>
+    <cell address="C59" />
+  </row>
+  <row row="60">
+    <cell address="A60">VERB_PAS_DE_DEUX</cell>
+    <cell address="B60">PAS DE DUEX</cell>
+    <cell address="C60" />
+  </row>
+  <row row="61">
+    <cell address="A61">VERB_CONNECT_FIVE</cell>
+    <cell address="B61">CONNECT FIVE</cell>
+    <cell address="C61" />
+  </row>
+  <row row="62">
+    <cell address="A62">VERB_AVOID_FOREVER</cell>
+    <cell address="B62">AVOID FOREVER</cell>
+    <cell address="C62" />
+  </row>
+  <row row="63">
+    <cell address="A63">VERB_NAP_IN</cell>
+    <cell address="B63">NAP IN</cell>
+    <cell address="C63" />
+  </row>
+  <row row="64">
+    <cell address="A64">VERB_CONTEMPLATE_OWN_EXISTENCE_IN</cell>
+    <cell address="B64">CONTEMPLATE OWN EXISTENCE IN</cell>
+    <cell address="C64" />
+  </row>
+  <row row="65">
+    <cell address="A65">VERB_COME_UP_WITH_GOOD_NICKNAMES_FOR_YOURSELF_IN</cell>
+    <cell address="B65">COME UP WITH GOOD NICKNAMES FOR YOURSELF IN</cell>
+    <cell address="C65" />
+  </row>
+  <row row="66">
+    <cell address="A66">VERB_NEW_STYLE_MONTAGE</cell>
+    <cell address="B66">NEW STYLE MONTAGE</cell>
+    <cell address="C66" />
+  </row>
+  <row row="67">
+    <cell address="A67">VERB_SLEEP</cell>
+    <cell address="B67">SLEEP</cell>
+    <cell address="C67" />
+  </row>
+  <row row="68">
+    <cell address="A68">VERB_PRANK_HILARIOUSLY</cell>
+    <cell address="B68">PRANK HILARIOUSLY</cell>
+    <cell address="C68" />
+  </row>
+  <row row="69">
+    <cell address="A69">VERB_SCROUNGE_AMMO</cell>
+    <cell address="B69">SCROUNGE AMMO</cell>
+    <cell address="C69" />
+  </row>
+  <row row="70">
+    <cell address="A70">VERB_CHECK_FOR_SECRET_PASSAGE</cell>
+    <cell address="B70">CHECK FOR SECRET PASSAGE</cell>
+    <cell address="C70" />
+  </row>
+  <row row="71">
+    <cell address="A71">VERB_EMBRACE</cell>
+    <cell address="B71">EMBRACE</cell>
+    <cell address="C71" />
+  </row>
+  <row row="72">
+    <cell address="A72">VERB_SWEAR_INTO_SERVICE</cell>
+    <cell address="B72">SWEAR INTO SERVICE</cell>
+    <cell address="C72" />
+  </row>
+  <row row="73">
+    <cell address="A73">VERB_SMASH</cell>
+    <cell address="B73">SMASH</cell>
+    <cell address="C73" />
+  </row>
+  <row row="74">
+    <cell address="A74">VERB_BREAK</cell>
+    <cell address="B74">BREAK</cell>
+    <cell address="C74" />
+  </row>
+  <row row="75">
+    <cell address="A75">VERB_DEVELOP_ADDITIONAL_THEORIES</cell>
+    <cell address="B75">DEVELOP ADDITIONAL THEORIES</cell>
+    <cell address="C75" />
+  </row>
+  <row row="76">
+    <cell address="A76">VERB_DRINK</cell>
+    <cell address="B76">DRINK</cell>
+    <cell address="C76" />
+  </row>
+  <row row="77">
+    <cell address="A77">VERB_CHECK_FREQUENCY</cell>
+    <cell address="B77">CHECK FREQUENCY</cell>
+    <cell address="C77" />
+  </row>
+  <row row="78">
+    <cell address="A78">VERB_WORK</cell>
+    <cell address="B78">WORK</cell>
+    <cell address="C78" />
+  </row>
+  <row row="79">
+    <cell address="A79">VERB_PUT_OUT</cell>
+    <cell address="B79">PUT OUT</cell>
+    <cell address="C79" />
+  </row>
+  <row row="80">
+    <cell address="A80">VERB_HIDE_INSIDE</cell>
+    <cell address="B80">HIDE INSIDE</cell>
+    <cell address="C80" />
+  </row>
+  <row row="81">
+    <cell address="A81">VERB_MOURN_FROHIKE</cell>
+    <cell address="B81">MOURN FROHIKE</cell>
+    <cell address="C81" />
+  </row>
+  <row row="82">
+    <cell address="A82">VERB_CURSE_LANGLY</cell>
+    <cell address="B82">CURSE LANGLY</cell>
+    <cell address="C82" />
+  </row>
+  <row row="83">
+    <cell address="A83">VERB_LAUD_BYERS</cell>
+    <cell address="B83">LAUD BYERS</cell>
+    <cell address="C83" />
+  </row>
+  <row row="84">
+    <cell address="A84">VERB_IMPRINT</cell>
+    <cell address="B84">IMPRINT</cell>
+    <cell address="C84" />
+  </row>
+  <row row="85">
+    <cell address="A85">VERB_ASSESS_VALUE</cell>
+    <cell address="B85">ASSESS VALUE</cell>
+    <cell address="C85" />
+  </row>
+  <row row="86">
+    <cell address="A86">VERB_READ_INSCRIPTION</cell>
+    <cell address="B86">READ INSCRIPTION</cell>
+    <cell address="C86" />
+  </row>
+  <row row="87">
+    <cell address="A87">VERB_REPAIR</cell>
+    <cell address="B87">REPAIR</cell>
+    <cell address="C87" />
+  </row>
+  <row row="88">
+    <cell address="A88">VERB_FASHION_CRUDE_ARMAMENTS</cell>
+    <cell address="B88">FASHION CRUDE ARMAMENTS</cell>
+    <cell address="C88" />
+  </row>
+  <row row="89">
+    <cell address="A89">VERB_PERFECT_DISGUISE</cell>
+    <cell address="B89">PERFECT DISGUISE</cell>
+    <cell address="C89" />
+  </row>
+  <row row="90">
+    <cell address="A90">VERB_HIGH_FIVE</cell>
+    <cell address="B90">HIGH FIVE</cell>
+    <cell address="C90" />
+  </row>
+  <row row="91">
+    <cell address="A91">VERB_PERMANENTLY_IGNORE</cell>
+    <cell address="B91">PERMANENTLY IGNORE</cell>
+    <cell address="C91" />
+  </row>
+</data>

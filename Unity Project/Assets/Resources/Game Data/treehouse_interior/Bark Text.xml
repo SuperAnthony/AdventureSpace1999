@@ -1,0 +1,49 @@
+<data>
+  <row row="1">
+    <cell cellsource="A1">_key</cell>
+    <cell cellsource="B1">_text</cell>
+    <cell cellsource="C1">_text</cell>
+  </row>
+  <row row="2">
+    <cell cellsource="A2">BARK_LANGUAGE</cell>
+    <cell cellsource="B2">English</cell>
+    <cell cellsource="C2">Italian</cell>
+  </row>
+  <row row="3">
+    <cell cellsource="A3">BARK_1_9_JUDE_LOOK_WINDOW2_MANSION</cell>
+    <cell cellsource="B3">its tough and no one understands...</cell>
+    <cell cellsource="C3" />
+  </row>
+  <row row="4">
+    <cell cellsource="A4">BARK_1_9_JUDE_FROHIKE_1</cell>
+    <cell cellsource="B4">ok frohike. got a mission for you buddy.</cell>
+    <cell cellsource="C4" />
+  </row>
+  <row row="5">
+    <cell cellsource="A5">BARK_1_9_JUDE_FROHIKE_2</cell>
+    <cell cellsource="B5">take these to joey. everything's riding on you. //godspeed dear friend.</cell>
+    <cell cellsource="C5" />
+  </row>
+  <row row="6">
+    <cell cellsource="A6">BARK_1_9_JUDE_LANGLY_1</cell>
+    <cell cellsource="B6">it's all up to you now, langly. the fate of mankind rests on your feathery shoulders!</cell>
+    <cell cellsource="C6" />
+  </row>
+  <row row="7">
+    <cell cellsource="A7">BARK_1_9_JUDE_LANGLY_2</cell>
+    <cell cellsource="B7">... //i don't know what i was expecting.</cell>
+    <cell cellsource="C7" />
+  </row>
+  <row row="8">
+    <cell cellsource="A8">BARK_1_9_JUDE_BYERS_1</cell>
+    <cell cellsource="B8">this is it, byers. this is for all the marbles. //literally all the marbles, ok? //please, for the love of god, don't mess this up.</cell>
+    <cell cellsource="C8" />
+  </row>
+  <row row="9">
+    <cell cellsource="A9">BARK_1_9_JUDE_BYERS_2</cell>
+    <cell cellsource="B9">yeah!!! byers you beautiful bastard, i could KISS you!</cell>
+    <cell cellsource="C9" />
+  </row>
+</data>
+
+

@@ -1,0 +1,117 @@
+<data>
+  <row row="1">
+    <cell address="A1">_key</cell>
+    <cell address="B1">_text</cell>
+    <cell address="C1">_text</cell>
+  </row>
+  <row row="2">
+    <cell address="A2">NAME_LANGUAGE</cell>
+    <cell address="B2">English</cell>
+    <cell address="C2">Italian</cell>
+  </row>
+  <row row="3">
+    <cell address="A3">NAME_J_BALLET</cell>
+    <cell address="B3">BALLET DANCE</cell>
+    <cell address="C3" />
+  </row>
+  <row row="4">
+    <cell address="A4">NAME_J_TAP</cell>
+    <cell address="B4">TAP DANCE</cell>
+    <cell address="C4" />
+  </row>
+  <row row="5">
+    <cell address="A5">NAME_J_ATTIC_KEY</cell>
+    <cell address="B5">ATTIC KEY</cell>
+    <cell address="C5" />
+  </row>
+  <row row="6">
+    <cell address="A6">NAME_J_C_BATTERY</cell>
+    <cell address="B6">C BATTERY</cell>
+    <cell address="C6" />
+  </row>
+  <row row="7">
+    <cell address="A7">NAME_J_D_BATTERY</cell>
+    <cell address="B7">D BATTERY</cell>
+    <cell address="C7" />
+  </row>
+  <row row="8">
+    <cell address="A8">NAME_J_DIARY_KEY</cell>
+    <cell address="B8">DIARY KEY</cell>
+    <cell address="C8" />
+  </row>
+  <row row="9">
+    <cell address="A9">NAME_J_E_BATTERY</cell>
+    <cell address="B9">E BATTERY</cell>
+    <cell address="C9" />
+  </row>
+  <row row="10">
+    <cell address="A10">NAME_J_FLAREGUN_EMPTY</cell>
+    <cell address="B10">FLARE GUN</cell>
+    <cell address="C10" />
+  </row>
+  <row row="11">
+    <cell address="A11">NAME_J_FLAREGUN_LOADED</cell>
+    <cell address="B11">LOADED FLARE GUN</cell>
+    <cell address="C11" />
+  </row>
+  <row row="12">
+    <cell address="A12">NAME_J_FLARES</cell>
+    <cell address="B12">FLARES</cell>
+    <cell address="C12" />
+  </row>
+  <row row="13">
+    <cell address="A13">NAME_J_FLASHLIGHT_CONTAINER</cell>
+    <cell address="B13">FLASHLIGHT</cell>
+    <cell address="C13" />
+  </row>
+  <row row="14">
+    <cell address="A14">NAME_J_FLASHLIGHT_EMPTY</cell>
+    <cell address="B14">FLASHLIGHT</cell>
+    <cell address="C14" />
+  </row>
+  <row row="15">
+    <cell address="A15">NAME_J_PET_TREATS</cell>
+    <cell address="B15">PET TREAT</cell>
+    <cell address="C15" />
+  </row>
+  <row row="16">
+    <cell address="A16">NAME_J_PIGEON</cell>
+    <cell address="B16">PIGEON</cell>
+    <cell address="C16" />
+  </row>
+  <row row="17">
+    <cell address="A17">NAME_J_POGS</cell>
+    <cell address="B17">POGS</cell>
+    <cell address="C17" />
+  </row>
+  <row row="18">
+    <cell address="A18">NAME_J_PORTAL_KEY</cell>
+    <cell address="B18">GREEN KEY</cell>
+    <cell address="C18" />
+  </row>
+  <row row="19">
+    <cell address="A19">NAME_J_POUCH_MARBLES</cell>
+    <cell address="B19">MARBLE POUCH</cell>
+    <cell address="C19" />
+  </row>
+  <row row="20">
+    <cell address="A20">NAME_J_SPICE_MIX</cell>
+    <cell address="B20">MAGIC SPICE MIX</cell>
+    <cell address="C20" />
+  </row>
+  <row row="21">
+    <cell address="A21">NAME_J_STALE_CRACKER</cell>
+    <cell address="B21">STALE CRACKER</cell>
+    <cell address="C21" />
+  </row>
+  <row row="22">
+    <cell address="A22">NAME_J_WALKIE_TALKIE</cell>
+    <cell address="B22">WALKIE TALKIE</cell>
+    <cell address="C22" />
+  </row>
+  <row row="23">
+    <cell address="A23">NAME_J_FLASHLIGHT</cell>
+    <cell address="B23">FLASHLIGHT</cell>
+    <cell address="C23" />
+  </row>
+</data>
