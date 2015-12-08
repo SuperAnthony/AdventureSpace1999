@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{BDBCE7D3-139D-3EDB-816D-FB1D73476D25}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AI\AIPath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AI\Seeker.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AstarData.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AstarMath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\AstarPath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\GraphUpdateShape.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\AnimationLink.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\AstarDebugger.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\AstarEnumFlagAttr.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\Int3.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\ListPool.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\NodeLink2.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\StackPool.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Path.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\PathHandler.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Serialization\JsonConverters.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Core\astarclasses.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralGridMover.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralWorld.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\AIFollow.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\AstarSmoothFollow2.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\DoorController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\DynamicGridObstacle.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\ExampleScripts\ObjectPlacer.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\Base.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\GridGenerator.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\NodeClasses\GridNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\PointGenerator.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\Utilities\BBTree.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\AlternativePath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\Modifiers.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\RaycastModifier.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Modifiers\StartEndModifier.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Pathfinders\ABPath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\TargetMover.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\AstarMemory.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\AstarParallel.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\AstarProfiler.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\DotNetReplacements.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\LockFreeStack.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\PathUtilities.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\ConditionalObject.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\GameVariable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\IGameVariable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\IGameVariableControl.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\Parameter.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\QuickComponents\VariablesInspectWindow.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\Scripting.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\Scripting\UniqueVarHandling.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Diagnostics\ListKeys.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Activate.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\AddScene.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\AutoSave.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\ChangeScene.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Continue.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Deactivate.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Disable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Enable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\EndCloseup.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\GetVar.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\JoinParty.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\OpenMessage.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Play.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\PlayAnimation.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\PlayBark.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Randomize.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\SetFOV.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\SetNarratorText.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\SetVar.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Start.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\StartAnimation.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\StartBark.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Stop.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\StopMoving.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\SwitchHand.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Talk.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\Ready\Use.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\HotSpot.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\ITriggerActions.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\SimpleActionTrigger.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\Trigger.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\TriggerActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Action Triggers\UI\HotSpotRolloverDisplay.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\Character.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\ICharacterData.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\IFollow.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\IPartyMember.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\PlayerCharacter.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\Quick Components\RequireActivePC.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IHotSpot.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IHotspotController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IContainer.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IInventoryManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IItem.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IPlayerInventory.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\IAIPath.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\ISpawnPoint.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\ISpawnable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\Marker.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\SpawnPoint.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Markers\Target.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Misc\ArgumentReceiver.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Misc\IReferencable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Misc\Prop.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Rooms\Fog.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Rooms\Quick Components\ConditionalGameObject.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Rooms\Quick Components\TimeOfDayCondition.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Rooms\Room.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Entities\Entity.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Entities\EntityInfo.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Entities\IEntity.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Entities\IKeyed.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Entities\Keyed.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\GameData.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Controller.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\ICameraManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\ICombineItemController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\ICursorControl.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\ICutSceneManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\IEventManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\IInputManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\ISceneManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Core Game Controller Interfaces\IScreenManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\DataController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\EventManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\GameController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\HotSpotController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\InputManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\PartyManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\StateMachine.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\CameraController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\CameraNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\CameraTrigger.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\FollowMainCamera.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\ITriggersCamSwitch.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\Quick Components\HideOnCloseup.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Cameras\Quick Components\OnExitCamera.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\Conversation.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\ConversationControl.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\HSConversationTrigger.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\IConversation.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\IConversationController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\ITalk.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\SequencerCommandPlayAction.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Dialogue\SequencerCommandSwitchCam.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Action.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\ActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\CombineActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\Entities\PerformerSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\MonoBehaviours\TimeTriggeredSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\RandomActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\UseActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\VerbActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionType.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionTypeCollection.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\DebugConsole.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\DebugConsoleInput.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\PerformActionComponent.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\PlayCommandOnCollision.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\IFrequency.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\IOpenVerbCoin.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\UI\VerbCoin.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\UI\VerbCoinPanel.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Utilities\ActionUtils.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Input\Cursor.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Input\MouseEventArgs.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\Actor.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\Animation Remote Controls\AnimatingMaterialController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\CutScene.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\IActor.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\ICutScene.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\Quick Components\DeactivateDuringCS.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\CutScenes\Quick Components\DisableObjectsOnCS.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\ISceneInfo.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\ISceneObject.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\ReferencedSceneObjectCollection.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\SceneController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\SceneInfo.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Scene Control\SceneObject.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\ASOption.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\AbilitiesPanel.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Bark.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\GameScreen.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Interfaces\IBark.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Interfaces\IGameScreen.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Interfaces\IMessageOptionsScreen.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Interfaces\IMessageScreen.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Interfaces\IOption.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\MessageScreen.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\OptionButton.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Screens\Switch.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\TargetMover.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Localization\ILocalizedText.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Localization\LocalizeUIText.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Localization\LocalizedText.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\SceneEntry.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Simple Data Types\DataCollection.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Simple Data Types\SerializableTransform.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\AmbientSound.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\CustomRandomSFXGOInspector.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\Fade.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\IAudioSource.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\IFadeable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\ISFX.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\ISound.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\Music.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\RandomSFXGO.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SFX.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SFXGO.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SgridAudioSource.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SoundFadeEditorHelper.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SoundFader.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\Sound\SoundManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Cameras\ICameraNode.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IActivatable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IActivatableArgs.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IActivator.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\ICombineable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IEnable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IExaminable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IGiver.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IHideable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IMoveable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IPrioritize.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\IReceiver.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\ISwitchable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\General\ITakeable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Media\IPerform.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Media\IPerformParams.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Media\IPlayable.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Messages\IBarkMessageManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Messages\IHotsSpotMessageManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Messages\IMessageManager.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\System Interfaces\Messages\INarratorMeessageManager.cs" />
+     <None Include="Assets\Plugins\Dialogue System\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Mobile Test\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Bark Example\Three NPCs Bark\_README.txt" />
+     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\iOS\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Computer\Bitwise Font\!license.txt" />
+     <None Include="Assets\Plugins\CameraPath3\3.1x Upgrade readme.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Computer\Typing.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Lua Example\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Bark Example\Bark Example.xml" />
+     <None Include="Assets\Plugins\Dialogue System\Third Party Support\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Bark Example\Bark Conversation\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Scripts\Supplemental\UI\Example\Art\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Art\Sounds\_README.txt" />
+     <None Include="Assets\Plugins\CameraPath3\readme.txt" />
+     <None Include="Assets\Plugins\CameraPath3\versionHistory.txt" />
+     <None Include="Assets\Plugins\Dialogue System\DLLs\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Circle\Textures\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Necromancer\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Multiple Database Example\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Bark Example\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Save Load Example\_README_FIRST_IMPORTANT!.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Bark Example\Three NPCs Bark\Three NPCs Bark.xml" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Shared Audio\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Camera Angle Studio\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Quick Start\Quick Start.xml" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Sequence Example\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Plugins\dependencies.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Text Input Example\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Necromancer\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Art\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\DLLs\Rotorz\Reorderable List Field\README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Dialogue Database\Feature Demo.xml" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Quest Example\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Readme_upgrading.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\iOS\link.xml" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Quick Start\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
+     <None Include="Assets\Adventure Space 1999\Engineering\Other\_Custom Actions\ReadMe.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Documentation\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Necromancer\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Scripts\Supplemental\Utility\_README.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Readme.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Scripts\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Feature Demo with Continue Button\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Wheel\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Menu Text Demo\Feature Demo With Menu Text.xml" />
+     <None Include="Assets\Plugins\Dialogue System\DLLs\Rotorz\Reorderable List Field\LICENSE.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Plugins\JsonFx\License.txt" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Scripts\Supplemental\UI\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Shared Fonts\Orbitron\SIL Open Font License.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\Unity Dialogue UIs\Shared Textures\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Scripts\Supplemental\UI\Prefabs\Unity UI Assets\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Prefabs\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Menu Text Demo\_README.txt" />
+     <None Include="Assets\Plugins\Dialogue System\Examples\Feature Demo\Articy Feature Demo\Articy Feature Demo.xml" />
+     <None Include="Assets\Adventure Space 1999\Engineering\AstarPathfindingProject\link.xml" />
+     <None Include="Assets\Plugins\Dialogue System\DLLs\Rotorz\Reorderable List Field\Editor\Editor.ReorderableList.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DialogueSystem">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="LuaInterpreter">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C65DF7E6-5082-3454-2A7F-EDDBED1731B5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{F6940774-7AA7-A4B8-63B4-B9ADCF2F6CB9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

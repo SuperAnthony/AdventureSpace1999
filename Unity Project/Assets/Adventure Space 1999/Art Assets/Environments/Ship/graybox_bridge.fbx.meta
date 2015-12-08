@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: f1926aa2c3b52cb45a51f6b574b4985f
+timeCreated: 1449203527
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: character_standin
+    100002: //RootNode
+    100004: graybox_man_and_chair1
+    100006: graybox_man_and_chair2
+    100008: graybox_man_and_chair3
+    100010: graybox_man_and_chair4
+    100012: graybox_man_and_chair:graybox_man_and_chair
+    100014: mirroredCutMesh1
+    100016: polySurface10
+    100018: polySurface11
+    100020: polySurface12
+    100022: polySurface13
+    100024: polySurface5
+    100026: polySurface6
+    100028: pPipe1
+    100030: transform1
+    400000: character_standin
+    400002: //RootNode
+    400004: graybox_man_and_chair1
+    400006: graybox_man_and_chair2
+    400008: graybox_man_and_chair3
+    400010: graybox_man_and_chair4
+    400012: graybox_man_and_chair:graybox_man_and_chair
+    400014: mirroredCutMesh1
+    400016: polySurface10
+    400018: polySurface11
+    400020: polySurface12
+    400022: polySurface13
+    400024: polySurface5
+    400026: polySurface6
+    400028: pPipe1
+    400030: transform1
+    2300000: character_standin
+    2300002: graybox_man_and_chair1
+    2300004: graybox_man_and_chair2
+    2300006: graybox_man_and_chair3
+    2300008: graybox_man_and_chair4
+    2300010: graybox_man_and_chair:graybox_man_and_chair
+    2300012: polySurface10
+    2300014: polySurface11
+    2300016: polySurface12
+    2300018: polySurface13
+    2300020: polySurface5
+    2300022: polySurface6
+    3300000: character_standin
+    3300002: graybox_man_and_chair1
+    3300004: graybox_man_and_chair2
+    3300006: graybox_man_and_chair3
+    3300008: graybox_man_and_chair4
+    3300010: graybox_man_and_chair:graybox_man_and_chair
+    3300012: polySurface10
+    3300014: polySurface11
+    3300016: polySurface12
+    3300018: polySurface13
+    3300020: polySurface5
+    3300022: polySurface6
+    4300000: character_standin
+    4300002: graybox_man_and_chair:graybox_man_and_chair
+    4300004: graybox_man_and_chair1
+    4300006: graybox_man_and_chair2
+    4300008: graybox_man_and_chair3
+    4300010: graybox_man_and_chair4
+    4300012: polySurface5
+    4300014: polySurface6
+    4300016: polySurface10
+    4300018: polySurface12
+    4300020: polySurface13
+    4300022: polySurface11
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
