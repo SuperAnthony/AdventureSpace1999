@@ -4,11 +4,8 @@
 // Date Created - July 16, 2015
 #endregion 
 
-#region using
-using WhatPumpkin.Actions.Sequences;
-#endregion
 
-namespace WhatPumpkin {
+namespace WhatPumpkin.Sgrid {
 
 	/// <summary>
 	/// For objects that open verb coins

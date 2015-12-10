@@ -142,6 +142,15 @@ namespace WhatPumpkin.Actions {
 
 		#region methods
 
+		public Action(string actionType, string parameters, string conditions  = "", string frequency = "" ) {
+		
+			_actionType = actionType;
+			_parameters = parameters;
+			_conditions = conditions;
+			_frequency = frequency;
+
+		}
+
 		public Action() {
 
 #if UNITY_EDITOR
