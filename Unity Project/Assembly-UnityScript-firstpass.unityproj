@@ -117,17 +117,17 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
  <Reference Include="DialogueSystem">
  <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
  </Reference>
  <Reference Include="LuaInterpreter">
  <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

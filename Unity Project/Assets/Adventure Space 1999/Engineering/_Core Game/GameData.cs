@@ -7,6 +7,7 @@
 #region using
 using UnityEngine;
 using WhatPumpkin.Actions.Sequences;
+using WhatPumpkin.Sgrid;
 using WhatPumpkin.CutScenes;
 #endregion
 

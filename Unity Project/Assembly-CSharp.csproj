@@ -166,6 +166,10 @@
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Characters\Quick Components\RequireActivePC.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IHotSpot.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IHotspotController.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IOpenVerbCoin.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\IReturnVerbActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\VerbActionSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Hotspots\VerbActionSequenceScript.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IContainer.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IInventoryManager.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Adventure Game Specific\Inventory\IItem.cs" />
@@ -225,18 +229,18 @@
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\ActionSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\CombineActionSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\Entities\PerformerSequence.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\IActionSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\MonoBehaviours\TimeTriggeredSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\RandomActionSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\UseActionSequence.cs" />
-     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionSequence Types\VerbActionSequence.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionType.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\ActionTypeCollection.cs" />
+     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Components\ActionSequenceScript.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\DebugConsole.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\DebugConsoleInput.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\PerformActionComponent.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Debug\PlayCommandOnCollision.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\IFrequency.cs" />
-     <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\IOpenVerbCoin.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\UI\VerbCoin.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\UI\VerbCoinPanel.cs" />
      <Compile Include="Assets\Adventure Space 1999\Engineering\_Core Game\General Game Control\Systems\Game Actions\Utilities\ActionUtils.cs" />
@@ -381,17 +385,17 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
  <Reference Include="DialogueSystem">
  <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
  </Reference>
  <Reference Include="LuaInterpreter">
  <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Plugins/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Super Anthony/Desktop/AS99/AdventureSpace1999/Unity Project/Assets/Adventure Space 1999/Engineering/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
