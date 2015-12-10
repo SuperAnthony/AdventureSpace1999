@@ -8,9 +8,10 @@
 #region using
 using UnityEngine;
 using System.Collections;
+using WhatPumpkin.Actions.Sequences;
 #endregion
 
-namespace WhatPumpkin.Actions.Sequences {
+namespace WhatPumpkin.Sgrid {
 
 	[System.Serializable]
 
@@ -45,6 +46,15 @@ namespace WhatPumpkin.Actions.Sequences {
 		}
 
 		#endregion
+
+		/// <summary>
+		/// Sets the verb.
+		/// </summary>
+		/// <param name="verbText">Verb text.</param>
+
+		internal void SetVerb(string verbText) {
+			_verb = verbText;
+		}
 
 #if UNITY_EDITOR
 

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using WhatPumpkin;
 using WhatPumpkin.Screens;
-using WhatPumpkin.Actions.Sequences;
+using WhatPumpkin.Sgrid;
 
 namespace WhatPumpkin.Actions.UI {
 

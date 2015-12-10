@@ -52,6 +52,11 @@ namespace WhatPumpkin.Sgrid.Triggers {
 
 		string _name;
 
+
+		/// <summary>
+		/// Are conditions met
+		/// </summary>
+
 		bool _conditionsMet; 
 
 		#endregion
@@ -299,6 +304,24 @@ namespace WhatPumpkin.Sgrid.Triggers {
 
 			if (_eventSystem == null) {
 				_eventSystem = GameObject.FindObjectOfType<EventSystem>();
+			}
+
+			// Check to see if there is a verb coin component
+			IVerbCoin verbCoin = this.GetComponent<IVerbCoin>();
+			if(verbCoin == null) {return;}
+
+			// If so, then generate verb action sequences
+			_sequences = new VerbActionSequence[this.GetComponents<IVerbCoin>().Length];
+
+			// If there are verb coin components
+			// Get them
+			int index = 0;
+			foreach(IVerbCoin verbcoin in this.GetComponents<IVerbCoin>()) {
+			
+				_sequences[index] = verbcoin.VerbActionSequence;
+
+				index++;
+			
 			}
 
 			// TODO: I may need to bring this back

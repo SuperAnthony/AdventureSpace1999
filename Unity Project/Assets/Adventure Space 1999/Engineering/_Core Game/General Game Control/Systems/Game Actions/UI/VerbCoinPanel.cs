@@ -10,8 +10,10 @@ using WhatPumpkin;
 using WhatPumpkin.Screens;
 using WhatPumpkin.Actions;
 using WhatPumpkin.Actions.Sequences;
+using WhatPumpkin.Sgrid;
 using UnityEngine.UI;
 
+// TODO: I don't like this whole Actions UI mess
 namespace WhatPumpkin.Actions.UI {
 
 	public class VerbCoinPanel : GameScreen {

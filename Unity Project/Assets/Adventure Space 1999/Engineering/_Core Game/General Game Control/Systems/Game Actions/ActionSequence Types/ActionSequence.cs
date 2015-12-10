@@ -24,7 +24,7 @@ namespace WhatPumpkin.Actions.Sequences {
 	/// A class that stores a list of actions
 	/// </summary>
 
-	public class ActionSequence : Keyed, IFrequency, IPerform   {
+	public class ActionSequence : Keyed, IFrequency, IPerform, IActionSequence   {
 
 		#region constants
 
@@ -194,12 +194,14 @@ namespace WhatPumpkin.Actions.Sequences {
 
 			_played = 0;
 
-			// Retrieve the number of times this action sequence has played
-			// TODO: This may need to be saved 
-			/*
-			if (DialogueLua.DoesVariableExist (_key+"_played")) {
-				_played = DialogueLua.GetVariable(_key+"_played").AsInt;
-			}*/
+
+
+		}
+
+		public ActionSequence(string conditions, string frequency = "") {
+		
+			_conditions = conditions;
+			_frequency = frequency;
 
 		}
 
@@ -463,6 +465,29 @@ namespace WhatPumpkin.Actions.Sequences {
 
 		#endregion
 
+		/// <summary>
+		/// Combine the specified receiver with the sender.
+		/// </summary>
+		/// <param name="receiver">Receiver.</param>
+		/// <param name="sender">Sender.</param>
+
+		static public void Combine<ActionSequenceType>
+		(ref ActionSequenceType receiver, ActionSequenceType sender) 
+        where ActionSequenceType : ActionSequence
+		{
+		
+			// End execution if reciever or sender is null
+			if(receiver == null || sender == null) {
+				return;
+			}
+
+			// Search through the senders actions and add them to the receiver
+			foreach(Action action in sender.Actions) {
+				receiver.AddAction(action);
+			}
+
+		}
+
 
 		// The following are primarily, if not exclusively, for sgrid actions
 
@@ -489,10 +514,19 @@ namespace WhatPumpkin.Actions.Sequences {
 		
 		public void AddAction() {
 
-			Debug.Log ("Add Action");
-
 			_actions.Add (new Action ());
 			
+		}
+
+
+		/// <summary>
+		/// Adds an action to the action sequence list.
+		/// </summary>
+		/// <param name="action">Action.</param>
+
+		public void AddAction(Action action) {
+		
+			AddAction(action.ActionType, action.Parameters, action.Conditions, action.Frequency);
 		}
 
 		/// <summary>
@@ -514,13 +548,24 @@ namespace WhatPumpkin.Actions.Sequences {
 		/// <summary>
 		/// Sets the properties.
 		/// </summary>
+		/// <param name="conditions">Conditions.</param>
+		/// <param name="frequency">Frequency.</param>
+
+		internal void SetProperties(string conditions, string frequency = "") {
+			_conditions = conditions;
+			_frequency = frequency;
+		}
+
+		/// <summary>
+		/// Sets the properties.
+		/// </summary>
 		/// <param name="key">Key.</param>
 		/// <param name="conditions">Conditions.</param>
 		/// <param name="frequency">Frequency.</param>
 
 		public virtual void SetProperties(string key, string conditions, string frequency) {
 		
-			// Prevent Blank Key and make certain it begins with hte required prefix
+			// Prevent Blank Key and make certain it begins with there required prefix
 			if (!key.StartsWith (KEY_PREFIX)) {
 				key = KEY_PREFIX + key;
 			}
